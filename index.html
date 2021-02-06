@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orel Alon</title>
+    <link rel="stylesheet" href="/Portfolio/js.js">
+    <link rel="stylesheet" href="/Portfolio/style.css">
+    <!-- <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/bundles/d54195e5fa87b91a69ee01d39422b795507de7b4.css'/> -->
+    <link rel="shortcut icon" href="./resources/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+<div class="navbar">
+    <div class="menu-left">
+        <div value='home' class="item">
+            <button class='link button'>Home</button>
+        </div>   
+        <div value='about' class="item">
+            <button class='link button'>About</button>
+        </div>   
+        <div value='contact' class="item">
+            <button class='link button'>Contact</button>
+        </div>   
+        <div value='linkedin' class="item">
+            <a href="https://www.linkedin.com/in/orel-alon-090689184" target="_blank">
+            <button class='link button'>Linkedin</button></a>
+        </div>   
+        <div value='github' class="item">
+            <a href="#" target="_blank">
+            <button class='link button'>Github</button></a>
+        </div> 
+    </div>
+        <div class="menu-right">
+            <img src="/Portfolio/img/logo_transparent.png"  width="90" height="75">
+        </div>  
+    </div>
+</div>
+<section id="home" class="page">
+    <div class="headr">
+    <h1>Hey,</h1>
+    <h1>I'm <span>O</span>rel,</h1>
+    <h1>Fullstack Developer.</h1>
+    </div>
+    <div value='headr-button' class="item">
+        <a href="#" target="_blank">
+        <button class='contact-button'>Contact Me!</button></a>
+    </div> 
+</section>
+    <section id="about" class="page">
+        <h1>About Me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quos quasi fugiat sed sequi exercitationem autem ipsam voluptatibus error vero, aspernatur, reprehenderit fugit doloremque quas non dolorum ratione dolorem itaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus fugit nemo veniam suscipit quo maiores repudiandae, aut optio aliquam officia in, cum laboriosam deserunt recusandae! Incidunt, suscipit sed reprehenderit voluptatum delectus aut, eligendi laudantium at fugit minus expedita excepturi veniam.</p>
+    </section>
+
+<section id="contact" class="page">
+    <h1>Contact Me</h1>
+    <form id="id-form">
+        <div class="form-group">
+    <label id="username" for="username"> Name</label>
+    <input type="text"
+           id="username"
+           name="usrename" 
+           class="form-control" 
+           placeholder="write your name here..."
+            required/></div>
+
+       <div class="form-group">
+         <label id="email" for="email"> Email</label>
+    <input type="text" 
+           id="email" 
+           name="email" 
+           class="form-control" 
+           placeholder="enter your email..." 
+           required/></div>
+
+           <div class="form-group">
+            <p> Your request?</p>
+            <textarea 
+            class="form-control"
+            id="opentext"
+            name="textarea1"     
+            placeholder="I am open to hear..."></textarea>
+            </div>
+           
+                <div class="form-group">
+             <button type="submit" id="submit" class="contact-button">
+               Submit
+             </button>
+           </div>
+        </form>
+
+</section>
+      </body>
+</html>
