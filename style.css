@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background: url(./Portfolio/img/black-wall-background-ploy-02_1.jpg) no-repeat
+  background: url(./img/black-wall-background-ploy-02_1.jpg) no-repeat
     center center/cover;
   font-family: "Secular One", sans-serif;
 }
@@ -119,7 +119,7 @@ h1 span {
   font-weight: bold;
 }
 #about {
-  background: url(./Portfolio/img/white-wall-lamp.jpg);
+  background: url(./img/white-wall-lamp.jpg);
   color: #fff;
   font-size: 1.2rem;
 }
